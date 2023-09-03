@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmin</title>
+
+<style>
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+
+        /* Menengahkan gambar */
+        display: block;
+        margin: 0px auto 0px auto;
+    }
+
+    /* selector digunakan untuk memilih mana bagian dari HTML yang akan diubah */
+    /* syntax CSS adalah selector{properties: value;} */
+
+    /* selector dengan sama tag */
+    h1{
+        color: darkolivegreen;
+    }
+
+    /* selector id */
+    #judul{
+        color: darksalmon;
+    }
+
+    /* selector class */
+    .tengah{
+        align-self: center;
+        color: darkslateblue;
+    }
+
+    /* multy selector */
+    h2, h3, h4{
+        color: lavender;
+    }
+
+    /* lebih spesifik lagi bisa */
+    h2.tengah{
+        color: brown;
+    }
+</style>
+</head>
+<body>
+    <img src="foto.jpg" alt="">
+
+    <!-- id= memberi tanda khusus elemen, tidak boleh sama -->
+    <h1 id="judul">INI JUDUL</h1>
+    <!-- class= bisa dipakai berkali", kalau id tidak digunakan berkali" -->
+    <h1 class="tengah">INI JUDUL JUGA</h1>
+    <h2 class="tengah">HAI</h2>
+    <h3>HELLO</h3>
+</body>
+</html>
